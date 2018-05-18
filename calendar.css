@@ -1,0 +1,70 @@
+/* Creates the table using CSS */
+
+table {
+	
+    border-collapse: collapse;
+    width: 70%;
+    table-layout: fixed;
+	margin: auto;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+
+
+}
+
+
+
+td {
+	height:75px;
+	width: 150px;
+	vertical-align: text-top;
+	text-align: left;
+	font-size: 75%;
+}
+
+h1 {
+	text-align: center;
+	background-color: #1abc9c;
+}
+
+/* creates the next and previous buttons */
+.next {
+	font-size: 24px;
+	float: right;
+	width: 50px;
+	text-align: center;
+	color: black;
+}
+
+.prev{
+	font-size: 24px;
+	width: 50px;
+	text-align: center;
+	color: black;
+}
+
+/*creates the colors for the various tags (creative portion) */
+
+.Blue{
+	background-color:#44B4D5;
+
+}
+
+.Red{
+	background-color:#FF2626;
+}
+
+.Green{
+	background-color:#4AE371;
+}
+
+.Purple{
+	background-color:#8282FF;
+}
+
+.Orange{
+	background-color:#FFAB60;
+}
